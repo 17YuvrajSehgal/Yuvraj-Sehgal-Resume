@@ -1,0 +1,251 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Large \scshape Yuvraj Sehgal}\\
+    \small 437-335-5700 $|$ \href{mailto:ys19rk@brocku.ca4}{\underline{ys19rk@brocku.ca}} $|$ \href{https://ca.linkedin.com/in/yuvraj-sehgal}{\underline{linkedin.com/in/yuvraj-sehgal}} $|$ \href{https://github.com/17YuvrajSehgal}{\underline{github.com/17YuvrajSehgal}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Honours Bachelor of Science, Computer Science}{January 2021 -- Present}
+    {Brock University, St. Catharines, ON}{}
+    \resumeItemListStart
+      \resumeItem{Expected Graduation:}{January 2025}
+      \resumeItem{GPA:}{3.9/4.0}
+      \resumeItem{\textbf{Match of Minds Scholarship}, September 2024:}{Research scholarship awarded based on faculty recommendations. Sole recipient in the department.}
+      \resumeItem{\textbf{Dean's Honour List (Academic Years 1-3)}, September 2022 - September 2024:}{Awarded for maintaining an average above 80\% across three consecutive academic years.}
+      \resumeItem{\textbf{Golden Key Award}, January 2023:}{Recognized among the top 15\% of students in the faculty.}
+      \resumeItem{\textbf{Brock Entrance Scholarship}, January 2021:}{Awarded for strong academic performance in senior secondary education.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+
+
+%----------- TechSkill -----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Java, Python, C++, C} \\
+    \textbf{Web Development}{: Java Spring, Java Spring boot, ReactJS, Angular, JSP, Java Servlets, HTML/CSS, JavaScript, Rest APIs, TypeScript} \\
+    \textbf{Database Management}{: MySQL, OracleDB, PostgreSQL, MongoDB} \\
+    \textbf{Build Tools}{: Maven, Gradle, Docker} \\
+    \textbf{Testing and Automation Tools}{: Selenium, Appium, Gherkins, Cucumber, Web Driver, JUnit, Karma} \\
+    \textbf{Other}{: Git, Github, JIRA, Confluence, Bitbucket, Bash, Word, Outlook, Excel, PowerPoint, SDLC} \\
+
+    }}
+ \end{itemize}
+ \begin{center}
+
+%-----------Experience-----------
+\section{Experience}
+
+ \resumeSubHeadingListStart
+    \resumeSubheading
+    {Full Stack Developer  }{July 2024 -- Present}
+    {Mengalo}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Developed a full-stack chatbot using Spring Boot, LangChain, OpenAI, and React to provide real-time analytical insights, boosting product value and increasing customer acquisition. }
+        \resumeItem{Integrated Power BI dashboard with React libraries, enhancing user experience and improving analytics visualization.}
+        \resumeItem{Resolved six security vulnerabilities, protecting sensitive company and customer data and mitigating potential threats.}
+        \resumeItem{Implemented code reviews, secure coding, Git management, and agile practices, boosting productivity and enhancing code quality in the startup.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Research Assistant}{January 2024 -- Present}
+    {Brock University}{St. Catharines, ON}
+      \resumeItemListStart
+        \resumeItem{Conducted empirical research with Professor Naser Ezzati-Jivan to evaluate the efficiency of generative AI in creating GitHub README files.}
+        \resumeItem {Developed an automated README generator for GitHub repositories using Java Spring Boot, LangChain, and OpenAI models.}
+        \resumeItem{Awarded the Match of Minds Scholarship for outstanding academic performance and research potential, selected as the sole recipient in the department based on faculty recommendations.}
+        \resumeItem{Evaluated model performance on accuracy, completeness, and readability, offering insights into its effectiveness in automating project documentation.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Automation Engineer Coop}{May 2024 -- August 2024}
+    {Scotiabank}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Acquired Android automation skills and implemented automation for 20 test case scenarios using Java, Selenium, and Appium, reducing testing time by over 75\% within four months.}
+        \resumeItem{Collaborated with the business quality assurance team to design test case scenarios that aligned with requirements and ensured business needs were met.}
+        \resumeItem{Created comprehensive reports for automation results, collaborating with the business quality assurance team to ensure tests met requirements and aligned with BQA standards.}
+        \resumeItem{Volunteered for tree planting in Toronto's Sun Valley.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\newpage
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Full Stack Developer Coop}{May 2023 -- August 2023}
+    {Scotiabank}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Integrated SSL encryption in front-end and back-end code for the bank's Trade Floor Limit Management System (LMS), enhancing web application security.}
+        \resumeItem{Developed comprehensive unit test cases using Java JUnit and Karma for the LMS website, increasing test coverage by 15\% and ensuring compliance with the bank’s 85\% minimum coverage mandate.}
+      \resumeItem{Resolved cross-functional issues by collaborating with another department, enhancing efficiency and expanding the functionality of a Python script used for trade floor risk management.}
+      \resumeItem{Identified a gap and created an extensive Confluence page to provide initial setup guidance, expediting onboarding for new team members and streamlining their integration process.}
+      \resumeItem{Volunteered for tree planting in Toronto’s Don Valley during Community Day.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------Experience 2 -----------
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Automation Engineer Coop}{September 2022 -- December 2022}
+    {Scotiabank}{Toronto, ON}
+    \resumeItemListStart
+      \resumeItem{Mastered automation techniques for quality assurance, crafting and implementing over 35 test scenarios within four month.}
+      \resumeItem{Performed regression testing using BDD frameworks like Cucumber in Java, seamlessly integrating with the bank’s automation framework for comprehensive and efficient testing.}
+      \resumeItem{Automated the creation of multiple JIRA tickets using Python scripts and Excel, achieving a 70\% reduction in task completion time and significantly enhancing team productivity.}
+      \resumeItem{Volunteered to pack over 300 health kits for the homeless during Community Day.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------Projects 1 -----------
+\section{Projects}
+
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Stock Market Prediction Using Genetic Programming}{April 2024}
+    {Brock University}{}
+    \resumeItemListStart
+      \resumeItem{Developed a regression algorithm using genetic programming to predict NASDAQ and S\&P 500 prices, achieving up to 70\% accuracy.}
+      \resumeItem{Conducted a comparative analysis of various stocks, researching procedures and algorithms, and synthesized findings into a comprehensive report.}
+      \resumeItem{Learned the ECJ library and integrated it into the project, enhancing research capabilities with evolutionary computation techniques.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {AI Powered Web-Summarizer COSC-4P02 Software Engineering Project}{April 2023}
+    {Brock University}{}
+    \resumeItemListStart
+    \resumeItem{Designed and implemented a full-stack Web-Summarizer tool using Java Spring Boot, Thymeleaf, and OpenAI to summarize web pages based on links or text, resulting in a robust solution for concise content summaries and sharing options.}
+      \resumeItem{Served as Scrum Master and Developer, facilitating agile ceremonies and coordinating team efforts, resulting in timely project delivery and enhanced team productivity.}
+      \resumeItem{Developed a comprehensive test plan covering all scenarios and conducted extensive regression testing, ensuring a high-quality product release with minimal defects.}
+      \resumeItem{Implemented OAuth2 in the application, significantly enhancing security measures and protecting customer data.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Village War Advanced OOPs Project}{April 2023}
+    {Brock University}{}
+    \resumeItemListStart
+      \resumeItem{Designed a UML diagram for a complex game, utilizing object-oriented programming principles to create an efficient and comprehensive design.}
+      \resumeItem{Developed game logic, rules, and user interaction mechanisms by integrating advanced Java OOP features, resulting in a top-tier implementation within the class.}
+      \resumeItem{Incorporated the MVC design pattern in game development, enabling a graphical user interface and enhancing the game experience while improving scalability and maintainability.}
+      \resumeItem{Revamped the project to utilize a multi-threaded client-server model with UDP protocol for packet sharing, resulting in notable enhancements in game performance.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\end{center}
+\end{document}
